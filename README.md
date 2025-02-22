@@ -71,11 +71,11 @@ jupyter notebook notebooks/visualization.ipynb
 ---
 
 ### **Future Work**
-Moving forward, the project aims to:
-• Expand the dataset to include **more histone markers**.
-• Implement **Transformer-based architectures** for better long-range interaction modeling.
-• Explore **feature selection methods** to determine the most relevant predictors of chromatin accessibility.
-• Fine-tune the model with additional genomic datasets and external validation.
+Moving forward, the project aims to:  
+• Expand the dataset to include **more histone markers**.  
+• Implement **Transformer-based architectures** for better long-range interaction modeling.  
+• Explore **feature selection methods** to determine the most relevant predictors of chromatin accessibility.  
+• Fine-tune the model with additional genomic datasets and external validation.  
 
 ---
 
