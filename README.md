@@ -63,7 +63,7 @@ python src/data_preprocessing.py  # Process ATAC-seq & histone markers
 python src/train_model.py  # Train neural network
 ```
 
-#### **4️⃣ View Results**
+#### **View Results**
 ```bash
 jupyter notebook notebooks/visualization.ipynb
 ```
