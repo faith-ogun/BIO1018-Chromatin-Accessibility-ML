@@ -22,13 +22,13 @@ The project is structured into the following stages:
    - Generate training labels (open vs. closed chromatin).
 
 2. **Model Training**
-   - Train a **Convolutional Neural Network (CNN)** or **Transformer-based model** to classify regions as **open vs. closed chromatin**.
+   - Train a **Neural Network (CNN)** to classify regions as **open vs. closed chromatin**.
    - Use **leave-one-chromosome-out validation** to ensure generalization.
 
 3. **Evaluation & Interpretation**
    - Assess model performance using **accuracy, precision, recall, and F1-score**.
    - Visualize chromatin accessibility predictions across chromosomes.
-   - Investigate the role of **histone markers** and **genomic annotations** in prediction accuracy.
+   - Investigate the role of **histone markers** and **transcription factor signals** in prediction accuracy.
 
 4. **Visualization & Reporting**
    - Map **model predictions** to known **promoters, enhancers, and intergenic regions**.
@@ -40,10 +40,10 @@ The project is structured into the following stages:
 ### **Directory Structure**
 ```
 BIO1018-Chromatin-Accessibility-ML/
-├── dataset/            # Raw and preprocessed genomic data
 ├── notebooks/          # Jupyter notebooks for data exploration & visualization
 ├── src/                # Python scripts for data preprocessing & model training
 ├── models/             # Trained machine learning models
+├── plots/              # Exploratory data analysis plots
 ├── README.md           # Project documentation
 └── requirements.txt    # Dependencies
 ```
@@ -83,7 +83,7 @@ Moving forward, the project aims to:
 | Week | Task |
 |------|------------------------------------------------|
 | 1    | Data preprocessing (ATAC-seq, histone markers) |
-| 2    | Model training (CNN-based classifier)         |
+| 2    | Model training (NN-based classifier)         |
 | 3    | Evaluation and visualization                  |
 | 4    | Interpretation & final dissertation writing    |
 
