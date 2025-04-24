@@ -8,7 +8,7 @@ This project is part of my final dissertation for **BIO1018** at RCSI and DCU.
 ### **Motivation and Background**
 Understanding chromatin accessibility is crucial for deciphering **gene regulation and transcriptional control**. **ATAC-seq** provides insight into **open chromatin regions**, but it does not explicitly define closed chromatin regions. By integrating **histone modifications (e.g., H3K27ac, H3K4me3)** and **genomic annotations (promoters, enhancers, intergenic regions)**, this project seeks to develop a **machine learning model that classifies genomic regions as open or closed**.
 
-This project aligns with my broader research interests in **computational biology and machine learning**, with the goal of exploring chromatin dynamics and gene regulation in a systematic, data-driven way.
+This project aligns with my broader research interests in **cancer research, computational biology, bioinformatics and machine learning**, in a systematic, data-driven way.
 
 ---
 
@@ -22,7 +22,7 @@ The project is structured into the following stages:
    - Generate training labels (open vs. closed chromatin).
 
 2. **Model Training**
-   - Train a **Neural Network (CNN)** to classify regions as **open vs. closed chromatin**.
+   - Train a **Neural Network (FNN)** to classify regions as **open vs. closed chromatin**.
    - Use **leave-one-chromosome-out validation** to ensure generalization.
 
 3. **Evaluation & Interpretation**
